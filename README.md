@@ -42,7 +42,7 @@ javac -d bin src/App.java
 java -cp bin App
 ```
 
-#### Atau menggunakan VS Code:
+#### Atau menggunakan software IDE:
 1. Buka file `src/App.java`
 2. Klik tombol "Run" atau tekan `Ctrl + F5`
 3. Program akan berjalan di terminal terintegrasi
