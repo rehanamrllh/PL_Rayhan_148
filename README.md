@@ -1,18 +1,101 @@
-## Getting Started
+# Simple Calculator - Java Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Deskripsi Proyek
+Simple Calculator adalah aplikasi kalkulator sederhana berbasis Java yang dapat melakukan operasi aritmatika dasar. Proyek ini dibuat untuk memenuhi tugas Modul 3 mata kuliah Pemrograman Lanjut.
 
-## Folder Structure
+## Fitur
+- ✅ Penjumlahan (+)
+- ✅ Pengurangan (-)
+- ✅ Perkalian (*)
+- ✅ Pembagian (/)
+- ✅ Validasi input operator
+- ✅ Penanganan pembagian dengan nol
+- ✅ Interface berbahasa Indonesia
 
-The workspace contains two folders by default, where:
+## Struktur Folder
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+```
+Codelab/
+├── src/
+│   └── App.java          # File utama aplikasi
+├── lib/                  # Folder untuk dependencies
+├── bin/                  # Folder untuk compiled output
+└── README.md            # Dokumentasi proyek
+```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Cara Menjalankan Program
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Prasyarat
+- Java Development Kit (JDK) 8 atau lebih tinggi
+- atau Integrated Development Environment (IDE) seperti Eclipse, IntelliJ IDEA, atau NetBeans
 
-## Dependency Management
+### Langkah-langkah:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+#### 1. Kompilasi Program
+```bash
+cd "e:\gameplayUMM\S3\Pemrogram Lanjut\PRAKTEK\TUGAS\Modul3\Codelab"
+javac -d bin src/App.java
+```
+
+#### 2. Jalankan Program
+```bash
+java -cp bin App
+```
+
+#### Atau menggunakan VS Code:
+1. Buka file `src/App.java`
+2. Klik tombol "Run" atau tekan `Ctrl + F5`
+3. Program akan berjalan di terminal terintegrasi
+
+## Cara Menggunakan
+
+1. **Jalankan program** - Program akan menampilkan pesan selamat datang
+2. **Input angka pertama** - Masukkan angka pertama 
+3. **Pilih operator** - Masukkan salah satu operator: `+`, `-`, `*`, `/`
+4. **Input angka kedua** - Masukkan angka kedua 
+5. **Lihat hasil** - Program akan menampilkan hasil perhitungan
+
+### Contoh Penggunaan:
+```
+=== Simple Calculator ===
+Masukkan nomer pertama: 10
+Masukkan operator (+, -, *, /): +
+Masukkan nomor kedua: 5
+Result: 10.0 + 5.0 = 15.0
+```
+
+## Penanganan Error
+
+### 1. Pembagian dengan Nol
+```
+Masukkan nomer pertama: 10
+Masukkan operator (+, -, *, /): /
+Masukkan nomor kedua: 0
+Error: Division by zero!
+```
+
+### 2. Operator Tidak Valid
+```
+Masukkan nomer pertama: 10
+Masukkan operator (+, -, *, /): %
+Masukkan nomor kedua: 5
+Error: Invalid operator!
+```
+
+## Teknologi yang Digunakan
+- **Java SE** - Bahasa pemrograman utama
+- **Scanner** - Untuk input dari user
+- **Switch Statement** - Untuk logika pemilihan operasi
+
+## Informasi Developer
+- **Nama**: Rayhan
+- **NIM**: 148
+- **Mata Kuliah**: Pemrograman Lanjut
+- **Modul**: 3 (Codelab)
+
+## Repository
+GitHub: [https://github.com/rehanamrllh/PL_Rayhan_148.git](https://github.com/rehanamrllh/PL_Rayhan_148.git)
+
+
+## Lisensi
+Proyek ini dibuat untuk keperluan praktek pemrograman lanjut 2025.

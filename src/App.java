@@ -5,13 +5,13 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("=== Simple Calculator ===");
-        System.out.print("Enter first number: ");
+        System.out.print("Masukkan nomer pertama: ");
         double num1 = scanner.nextDouble();
         
-        System.out.print("Enter operator (+, -, *, /): ");
+        System.out.print("Masukkan operator (+, -, *, /): ");
         char operator = scanner.next().charAt(0);
         
-        System.out.print("Enter second number: ");
+        System.out.print("Masukkan nomor kedua: ");
         double num2 = scanner.nextDouble();
         
         double result = 0;
