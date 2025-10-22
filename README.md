@@ -1,7 +1,7 @@
 # Simple Calculator - Java Project
 
 ## Deskripsi Proyek
-Simple Calculator adalah aplikasi kalkulator sederhana berbasis Java yang dapat melakukan operasi aritmatika dasar. Proyek ini dibuat untuk memenuhi tugas Modul 3 mata kuliah Pemrograman Lanjut.
+Simple Calculator adalah aplikasi kalkulator sederhana berbasis Java yang dapat melakukan operasi aritmatika dasar. Proyek ini dibuat untuk memenuhi tugas Modul 3 mata kuliah PRaktek Pemrograman Lanjut.
 
 ## Fitur
 - ✅ Penjumlahan (+)
