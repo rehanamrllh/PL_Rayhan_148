@@ -70,8 +70,8 @@ Result: 10.0 + 5.0 = 15.0
 - **Switch Statement** - Untuk logika pemilihan operasi
 
 ## Informasi Developer
-- **Nama**: Rayhan
-- **NIM**: 148
+- **Nama**: Rayhan Amrullah 
+- **NIM**: 202410370110148
 - **Mata Kuliah**: Pemrograman Lanjut
 - **Modul**: 3 (Codelab)
 
