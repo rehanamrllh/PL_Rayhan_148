@@ -64,32 +64,14 @@ Masukkan nomor kedua: 5
 Result: 10.0 + 5.0 = 15.0
 ```
 
-## Penanganan Error
-
-### 1. Pembagian dengan Nol
-```
-Masukkan nomer pertama: 10
-Masukkan operator (+, -, *, /): /
-Masukkan nomor kedua: 0
-Error: Division by zero!
-```
-
-### 2. Operator Tidak Valid
-```
-Masukkan nomer pertama: 10
-Masukkan operator (+, -, *, /): %
-Masukkan nomor kedua: 5
-Error: Invalid operator!
-```
-
 ## Teknologi yang Digunakan
 - **Java SE** - Bahasa pemrograman utama
 - **Scanner** - Untuk input dari user
 - **Switch Statement** - Untuk logika pemilihan operasi
 
 ## Informasi Developer
-- **Nama**: Rayhan
-- **NIM**: 148
+- **Nama**: Rayhan Amrullah 
+- **NIM**: 202410370110148
 - **Mata Kuliah**: Pemrograman Lanjut
 - **Modul**: 3 (Codelab)
 
