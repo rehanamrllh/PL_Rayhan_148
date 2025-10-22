@@ -1,4 +1,4 @@
-# Simple Calculator - Java Project
+# Simple Calculator 
 
 ## Deskripsi Proyek
 Simple Calculator adalah aplikasi kalkulator sederhana berbasis Java yang dapat melakukan operasi aritmatika dasar. Proyek ini dibuat untuk memenuhi tugas Modul 3 mata kuliah PRaktek Pemrograman Lanjut.
@@ -10,17 +10,16 @@ Simple Calculator adalah aplikasi kalkulator sederhana berbasis Java yang dapat 
 - ✅ Pembagian (/)
 - ✅ Validasi input operator
 - ✅ Penanganan pembagian dengan nol
-- ✅ Interface berbahasa Indonesia
 
 ## Struktur Folder
 
 ```
 Codelab/
 ├── src/
-│   └── App.java          # File utama aplikasi
-├── lib/                  # Folder untuk dependencies
-├── bin/                  # Folder untuk compiled output
-└── README.md            # Dokumentasi proyek
+│   └── App.java         
+├── lib/                  
+├── bin/                 
+└── README.md            
 ```
 
 ## Cara Menjalankan Program
