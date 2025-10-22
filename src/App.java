@@ -31,7 +31,7 @@ public class App {
                 if (num2 != 0) {
                     result = num1 / num2;
                 } else {
-                    System.out.println("Error: Division by zero!");
+                    System.out.println("Error: Division by zero");
                     validOperation = false;
                 }
                 break;
