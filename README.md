@@ -45,7 +45,7 @@ java -cp bin App
 #### Atau menggunakan software IDE:
 1. Buka file `src/App.java`
 2. Klik tombol "Run" atau tekan `Ctrl + F5`
-3. Program akan berjalan di terminal terintegrasi
+3. Program akan berjalan di terminal terintegras
 
 ## Cara Menggunakan
 
@@ -62,24 +62,6 @@ Masukkan nomer pertama: 10
 Masukkan operator (+, -, *, /): +
 Masukkan nomor kedua: 5
 Result: 10.0 + 5.0 = 15.0
-```
-
-## Penanganan Error
-
-### 1. Pembagian dengan Nol
-```
-Masukkan nomer pertama: 10
-Masukkan operator (+, -, *, /): /
-Masukkan nomor kedua: 0
-Error: Division by zero!
-```
-
-### 2. Operator Tidak Valid
-```
-Masukkan nomer pertama: 10
-Masukkan operator (+, -, *, /): %
-Masukkan nomor kedua: 5
-Error: Invalid operator!
 ```
 
 ## Teknologi yang Digunakan
